@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Decodes and displays output from *Victor 86B USB DMM* based on *HIDAPI* http://www.signal11.us/oss/hidapi/
+This driver program decodes and displays LCD output from a *Victor 86B USB DMM* data packet that has been accessed using *HIDAPI* http://www.signal11.us/oss/hidapi/ functions.
 
 http://victor86b-usb-interface.googlecode.com/files/Victor86B.png
 
