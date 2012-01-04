@@ -24,16 +24,62 @@ LCD       digits           annunciators
 
 digit 4 decode
 {{{
+      digit 4 of Victor86B LCD display ... values are decimal!
+	             .
+      LCD b3	b10  b10
+      0   33    79   95   
+      1   17	111  127
+      2   65	15   31
+      3   97	239  255
+      4   81	175  191
 }}}
 
 digit 3 decode
 {{{
+    digit 3 of Victor86B LCD display
+                .   
+    LCD b6	b9  b9
+	0   47  69  85  
+    1   31	101 117 
+    2   79	5   21  
+    3   111	229 245 
+    4   95	165 181 
+    5   239	37  53  
+    6   239	69  85  
+    7   31	229 245 
+    8   111	69  85  
+    9   111	37  53  
+
+	[.] bit 5 of buf[9] controls the decimal-point which preceeds digit 3 of the LCD
 }}}
 
 digit 2 decode
-{{{
+{{{                 .
+    LCD b5	b7  b7
+	0   54  84  100
+    1   38	116 132
+    2   86	20  36
+    3   118	244 4
+    4   102	180 196
+    5   246	52  68
+    6   246	84  100
+    7   38	244 4
+    8   118	84  100
+    9   118	52  68
 }}}
 
 digit 1 decode
 {{{
+                .
+    LCD b0  b2  b0
+    0	75	29  91
+    1	107	13  123
+    2	11	61  27
+    3	235	93  251
+    4	171	77  187
+    5	43	221 59
+    6	75	221 91
+    7	235	13  251
+    8	75	93  91
+    9	43	93  59
 }}}
