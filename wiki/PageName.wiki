@@ -8,16 +8,15 @@ Decodes and displays output from *Victor 86B USB DMM* based on *HIDAPI* http://w
 
 Decodes and displays output from *Victor 86B USB DMM* based on *HIDAPI* http://www.signal11.us/oss/hidapi/
 
-// decode and display digits from USB HID packet (buf)
+USB HID packet (buf)
     
-	// LCD       digits           annunciators
-	//        -   -   -   - 
-	//       | | | | | | | | 
-	//     -  -   -   -   -       M            Hz     
-	//       | | | | | | | |   DC REL          V
-	//        -   -   -   -    AC HOLD m oC u  A
-	//
-	// buf  3,10 6,9 5,7 0,2   1  4    8 11 12 13
+LCD       digits           annunciators
+        -   -   -   - 
+       | | | | | | | | 
+     -  -   -   -   -       M            Hz  
+       | | | | | | | |   DC REL          V
+        -   -   -   -    AC HOLD m oC u  A
+ buf  3,10 6,9 5,7 0,2   1  4    8 11 12 13
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
