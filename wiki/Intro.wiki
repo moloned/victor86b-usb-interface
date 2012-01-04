@@ -4,6 +4,8 @@
 
 Decodes and displays output from *Victor 86B USB DMM* based on *HIDAPI* http://www.signal11.us/oss/hidapi/
 
+http://victor86b-usb-interface.googlecode.com/files/Victor86B.png
+
 = Details =
 
 Decodes and displays output from *Victor 86B USB DMM* based on *HIDAPI* http://www.signal11.us/oss/hidapi/
@@ -12,7 +14,6 @@ The tables below show how the USB HID packet (buf) is decoded.
 
 The tables have been reverse-engineered using a bench power-supply and other instrumentation to drive the Victor86B as there is no specification for the LCD control bits contained in the HID packet.  
 
-http://victor86b-usb-interface.googlecode.com/files/Victor86B.png
 
 All table entries are in decimal format and tables contain codes with and without the leading decimal point.  In most cases bit if 4 of one on the 2 characters is set this means that the decimal point is active.
 
