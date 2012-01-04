@@ -22,7 +22,18 @@ LCD       digits           annunciators
 
 }}}
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+digit 4 decode
+{{{
+}}}
+
+digit 3 decode
+{{{
+}}}
+
+digit 2 decode
+{{{
+}}}
+
+digit 1 decode
+{{{
+}}}
