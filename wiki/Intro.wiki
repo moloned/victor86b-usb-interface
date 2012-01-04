@@ -8,6 +8,8 @@ Decodes and displays output from *Victor 86B USB DMM* based on *HIDAPI* http://w
 
 Decodes and displays output from *Victor 86B USB DMM* based on *HIDAPI* http://www.signal11.us/oss/hidapi/
 
+http://code.google.com/p/victor86b-usb-interface/
+
 USB HID packet (buf)
 
 {{{
