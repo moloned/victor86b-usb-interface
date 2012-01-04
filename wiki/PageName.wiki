@@ -50,7 +50,8 @@ digit 3 decode
 }}}
 
 digit 2 decode
-{{{                 .
+{{{                 
+                    .
     LCD b5	b7  b7
 	0   54  84  100
     1   38	116 132
