@@ -12,11 +12,12 @@ USB HID packet (buf)
 
 {{{
 LCD       digits           annunciators
-*        -   -   -   - *
-*       | | | | | | | |* 
-*     -  -   -   -   - *      M            Hz  
-*       | | | | | | | |*   DC REL          V
-*        - . - . - . - *   AC HOLD m oC u  A
+        -   -   -   - 
+       | | | | | | | | 
+     -  -   -   -   -       M            Hz  
+       | | | | | | | |   DC REL          V
+        -   -   -   -    AC HOLD m oC u  A
+          .   .   .
  buf  3,10 6,9 5,7 0,2   1  4    8 11 12 13
 
 }}}
