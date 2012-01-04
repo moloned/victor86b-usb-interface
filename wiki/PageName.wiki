@@ -80,3 +80,23 @@ digit 1 decode
     8	75	93  91
     9	43	93  59
 }}}
+
+LCD Annunciator Decode
+{{{
+
+	//         M            Hz
+	//      DC REL          V  
+	//      AC HOLD m oC u  A  
+	// buf  1  4    8 11 12 13
+
+	if ((unsigned)(buf[ 1]& 16)) LCD_DC   = 1; // DC
+	if ((unsigned)buf[13]== 140) LCD_V    = 1; // Volts
+	if ((unsigned)buf[13]== 124) LCD_A    = 1; // Amps
+	if ((unsigned)buf[ 8]== 134) LCD_m    = 1; // m - milliamps
+	if ((unsigned)buf[12]== 126) LCD_u    = 1; // u - microamps
+	if ((unsigned)buf[ 4]== 177) LCD_REL  = 1; // REL
+	if ((unsigned)buf[ 4]== 241) LCD_HOLD = 1; // HOLD
+	if ((unsigned)buf[13]== 172) LCD_Hz   = 1; // Hz
+	if ((unsigned)buf[11]== 191) LCD_oC   = 1; // degrees C
+	if ((unsigned)buf[ 4]== 145) LCD_M    = 1; // Mega - ohms
+}}}
